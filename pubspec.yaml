@@ -4,18 +4,18 @@ version: 1.0.7
 homepage: https://github.com/swimmingkiim/gify
 
 environment:
-  sdk: ">=2.18.6 <3.0.0"
-  flutter: ">=2.11.0"
+  sdk: "^3.5.0"
+  flutter: ">=3.29.0"
 
 dependencies:
   cross_file: ^0.3.3+2
   # ffmpeg_kit_flutter: ^5.1.0
-  ffmpeg_kit_flutter_full: ^5.1.0
+  ffmpeg_kit_flutter_full: ^6.0.3
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  js: ^0.6.4
+  js: ^0.7.2
   path_provider: ^2.0.11
   plugin_platform_interface: ^2.0.2
   universal_html: ^2.0.8
@@ -23,7 +23,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 flutter:
   plugin:
